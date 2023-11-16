@@ -35,6 +35,7 @@ const questions = () => {
         type: 'list',
         message: 'Choose a License for your project:',
         choices: ['MIT', 'GNU', 'BSD'],
+        name: 'Licence',
     },
     {
         type: 'input',
@@ -55,16 +56,34 @@ const questions = () => {
 }
 
 // TODO: Create a function to write README file
-const writeToFile = (responses) => {
-    try {
-        fs.writeFile('README.md', (responses))
-    }
-        catch (err) {
-            console.log(err);
-        }   
-        
+const writeTofile = responses => {
+    fs.writeFile('README.md', responses, (err) => 
+    
+    err ? console.error(err) : console.log('Success!'))
 }
+/*const writeTofile = responses => {
+        fs.writeFile('README.md', responses, err => {
+            if (err) {
+                console.log(err);
+                return;
+            } else{
+                console.log('Success!')
+            }
+        })
+};
+*/
+questions().then(answers => {
+    return generateReadme(answers);
 
+}).then(responses => {
+    return writeTofile(responses);
+
+}).catch(err => {
+    console.log(err)
+})
+
+
+/*       
 // TODO: Create a function to initialize app
 const init = () => {
     const responses = questions()
@@ -73,7 +92,7 @@ const init = () => {
 
 // Function call to initialize app
 init();
-
+*/
 
 /*User Story
 AS A developer
