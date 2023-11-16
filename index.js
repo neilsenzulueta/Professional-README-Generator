@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
+const generateReadme = require('./utils/generateMarkdown.js')
 
 //Create an array of questions.
 const questions = () => {
