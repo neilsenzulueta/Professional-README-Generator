@@ -1,52 +1,78 @@
 // TODO: Include packages needed for this application
-const inquirer = require('inquirer');
 const fs = require('fs');
+const inquirer = require('inquirer');
 
-inquirer.prompt([
+//Create an array of questions.
+const questions = () => {
+    return inquirer.prompt([
+
     {
         type: 'input',
         message: 'What is the project title?',
-        name: 'projectTitle',
+        name: 'ProjectTitle',
     },
     {
         type: 'input',
-        message: 'Provide a short description of your project',
-        name: 'description',
+        message: 'Provide a short description of your project:',
+        name: 'Description',
     },
     {
         type: 'input',
         message: 'What are the steps required to install your project if any:',
-        name: 'installation',
+        name: 'Installation',
     },
     {
         type: 'input',
-        message: 'Provide instructions and examples for use',
-        name: 'usage',
+        message: 'Provide instructions and examples for use:',
+        name: 'Usage',
     },
     {
         type: 'input',
-        message: 'List your collaborators if any',
-        name: 'credits'
+        message: 'List your collaborators if any:',
+        name: 'Credits',
+    },
+    {
+        type: 'list',
+        message: 'Choose a License for your project:',
+        choices: ['MIT', 'GNU', 'BSD'],
     },
     {
         type: 'input',
-        message: 'What license?',
-        name: 'license',
+        message: 'Provide examples on how to run your app:',
+        name: 'Test',
     },
-]).then((response) => {
-    console.log(response)
-})
-// TODO: Create an array of questions for user input
-//const questions = [];
+    {
+        type: 'input',
+        message: 'What is your GitHub username?',
+        name: 'Github',
+    },
+    {
+        type: 'input',
+        message: 'What is your email address?',
+        name: 'Email',
+    },
+])
+}
 
 // TODO: Create a function to write README file
-//function writeToFile(fileName, data) {}
+const writeToFile = (responses) => {
+    try {
+        fs.writeFile('README.md', (responses))
+    }
+        catch (err) {
+            console.log(err);
+        }   
+        
+}
 
 // TODO: Create a function to initialize app
-//function init() {}
+const init = () => {
+    const responses = questions()
+    writeToFile(responses)
+}
 
 // Function call to initialize app
-//init();
+init();
 
 
 /*User Story
