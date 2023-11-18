@@ -20,6 +20,12 @@ const generateMarkdown = responses =>{
   ${responses.Description}
 
   ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [License](#license)
+  * [Test](#test)
+  * [Questions](#questions)
   
   ## Installation
   ${responses.Installation}
@@ -31,13 +37,13 @@ const generateMarkdown = responses =>{
   ${responses.Credits}
 
   ## License
-  ${responses.License}
+  This repository is licensed under ${responses.License}
 
   ## Test
   ${responses.Test}
 
   ## Questions
-  ${responses.Github}.${responses.Email}
+  If you have any questions about this repository, please contact me at ${responses.Email}. Github username: ${responses.Github}
 
 `;
 }
