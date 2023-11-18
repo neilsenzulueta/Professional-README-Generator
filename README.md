@@ -1,8 +1,8 @@
-# cool new project 
+# new cool project
   ![Github license] (https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
-  this project is designed to help you generate a readme file using nodejs
+  this project will help users generate readme file
 
   ## Table of Contents
   * [Installation](#installation)
@@ -13,10 +13,10 @@
   * [Questions](#questions)
   
   ## Installation
-  nodejs and inquirer
+  install node.js and updated version of inquirer
 
   ## Usage
-  pls follow readme guidelines
+  pls follow readme instructions 
 
   ## Credits
   N/A
@@ -25,8 +25,8 @@
   This repository is licensed under MIT
 
   ## Test
-  pls see screenshots of app
+  pls see screenshots of project
 
   ## Questions
-  If you have any questions about this repository, please contact me at neilzulueta@gmail.com. Github username: neilsenzulueta
+  If you have any questions about this repository, please contact me at neilzulueta@gmail.com. Github username: https://github.com/neilsenzulueta
 

@@ -11,7 +11,7 @@
 // If there is no license, return an empty string
 //function renderLicenseSection(license) {}
 
-// TODO: Create a function to generate markdown for README
+// Function to generate markdown for README
 const generateMarkdown = responses =>{
   return `# ${responses.ProjectTitle}
   ![Github license] (https://img.shields.io/badge/license-${responses.License}-blue.svg)
@@ -43,7 +43,7 @@ const generateMarkdown = responses =>{
   ${responses.Test}
 
   ## Questions
-  If you have any questions about this repository, please contact me at ${responses.Email}. Github username: ${responses.Github}
+  If you have any questions about this repository, please contact me at ${responses.Email}. GitHub: https://github.com/${responses.Github}
 
 `;
 }
