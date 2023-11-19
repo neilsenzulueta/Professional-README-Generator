@@ -1,8 +1,8 @@
-# new cool project
-  ![Github license] (https://img.shields.io/badge/license-MIT-blue.svg)
+# New cool project
+  ![Github license](https://img.shields.io/badge/license-N/A-blue.svg)
 
   ## Description
-  this project will help users generate readme file
+  help users generate a readme file
 
   ## Table of Contents
   * [Installation](#installation)
@@ -13,20 +13,20 @@
   * [Questions](#questions)
   
   ## Installation
-  install node.js and updated version of inquirer
+  node.js and updated inquirer
 
   ## Usage
-  pls follow readme instructions.
+  pls see screenshots
 
   ## Credits
   N/A
 
   ## License
-  This repository is licensed under MIT
+  This repository is licensed under N/A
 
   ## Test
-  pls see screenshots of project
+  N/A
 
   ## Questions
-  If you have any questions about this repository, please contact me at neilzulueta@gmail.com. Github username: https://github.com/neilsenzulueta
+  If you have any questions about this repository, please contact me at neilzulueta@gmail.com. GitHub: https://github.com/neilsenzulueta
 

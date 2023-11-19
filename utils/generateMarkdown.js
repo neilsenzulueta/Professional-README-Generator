@@ -14,7 +14,7 @@
 // Function to generate markdown for README
 const generateMarkdown = responses =>{
   return `# ${responses.ProjectTitle}
-  ![Github license] (https://img.shields.io/badge/license-${responses.License}-blue.svg)
+  ![Github license](https://img.shields.io/badge/license-${responses.License}-blue.svg)
 
   ## Description
   ${responses.Description}
@@ -37,7 +37,7 @@ const generateMarkdown = responses =>{
   ${responses.Credits}
 
   ## License
-  This repository is licensed under ${responses.License}
+  This repository is licensed under: ${responses.License}
 
   ## Test
   ${responses.Test}
