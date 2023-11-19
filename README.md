@@ -16,7 +16,7 @@
   install node.js and updated version of inquirer
 
   ## Usage
-  pls follow readme instructions 
+  pls follow readme instructions.
 
   ## Credits
   N/A
