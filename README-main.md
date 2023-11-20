@@ -12,7 +12,7 @@ User needs to install inquirer, use npm i inquirer@8.2.4
 ## Usage
 
 Open command-line application and use the following command: node index.js
-The command-line application will accept user input and will be prompted for information about their project. Once completed, a README.md file will be created will information provided. 
+The command-line application will accept user input and will be prompted for information about their project. Once completed, a README.md file will be created and will display the information provided. 
 
 ![Alt text](<utils/Screenshot 2023-11-19 at 7.23.58 PM (2).png>)
 
