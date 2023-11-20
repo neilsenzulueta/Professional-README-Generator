@@ -1,8 +1,8 @@
-# New cool project
+# Professional README Generator
   ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
-  this project will help users create a readme file
+  This project will help users create a readme file
 
   ## Table of Contents
   * [Installation](#installation)
@@ -13,10 +13,10 @@
   * [Questions](#questions)
   
   ## Installation
-  install node js and updated inquirer
+  Install node js and updated inquirer
 
   ## Usage
-  pls follow instructions in readme
+  Pls follow instructions in readme
 
   ## Credits
   N/A
@@ -25,7 +25,7 @@
   This repository is licensed under: MIT
 
   ## Test
-  using node.js
+  Using node.js
 
   ## Questions
   If you have any questions about this repository, please contact me at neilzulueta@gmail.com. GitHub: https://github.com/neilsenzulueta
