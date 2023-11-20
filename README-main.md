@@ -23,7 +23,7 @@ https://github.com/neilsenzulueta/Professional-README-Generator
 
 ## Credits
 
-N/A
+Starter code was provided by UC Davis Bootcamp.
 
 ## License
 
