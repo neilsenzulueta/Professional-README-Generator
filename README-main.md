@@ -16,9 +16,9 @@ The command-line application will accept user input and will be prompted for inf
 
 ![Alt text](<utils/Screenshot 2023-11-19 at 7.23.58 PM (2).png>)
 
-https://drive.google.com/file/d/1XStL0yWX3zfGMoBErDX1HFMYFw_J1KMd/view
+[Click here to view Screencastify](https://drive.google.com/file/d/1XStL0yWX3zfGMoBErDX1HFMYFw_J1KMd/view)
 
-https://github.com/neilsenzulueta/Professional-README-Generator
+[GitHub](https://github.com/neilsenzulueta/Professional-README-Generator)
 
 
 ## Credits
